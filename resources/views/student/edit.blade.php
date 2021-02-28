@@ -6,7 +6,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header bg-primary text-light d-flex justify-content-between align-items-center">
-                    <h5 class="mb-0">Create students</h5>
+                    <h5 class="mb-0">Edit students</h5>
                     <a href="{{route('student.index')}}" class="btn btn-light">Back to All Students</a>
                 </div>
                 <div class="card-body">

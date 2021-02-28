@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use session;
 use App\Models\Student;
 use Illuminate\Http\Request;
 
@@ -14,7 +14,8 @@ class StudentController extends Controller
      */
     public function index()
     {
-        return view('student.index');
+        $students =Student::all();
+        return view('student.index')->with('students', $students);
     }
 
     /**
@@ -35,7 +36,13 @@ class StudentController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //dd($request->all());
+        Student::create([
+            'name' => $request->name,
+            'email'=> $request->email,
+        ]);
+        $request->session()->flash('success', 'student create successfully');
+        return redirect()->back();
     }
 
     /**
@@ -57,7 +64,7 @@ class StudentController extends Controller
      */
     public function edit(Student $student)
     {
-        //
+        return view('student.edit');
     }
 
     /**

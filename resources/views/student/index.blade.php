@@ -22,12 +22,14 @@
                             </tr>
                         </thead>
                         <tbody>
+                            @foreach ($students as $student)
                             <tr>
-                                <td>Badhon</td>
-                                <td>Badhon</td>
-                                <td>Badhon</td>
-                                <td>Badhon</td>
+                                <td>{{$student->id}}</td>
+                                <td>{{$student->name}}</td>
+                                <td>{{$student->email}}</td>
+                                <td><a href="{{route('student.edit',['id' => $student->id])}}" class="btn btn-primary btn-sm">Edit</a></td>
                             </tr>
+                            @endforeach
                         </tbody>
                     </table>
                 </div>
