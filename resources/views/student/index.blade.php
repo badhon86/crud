@@ -22,14 +22,30 @@
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach ($students as $student)
-                            <tr>
-                                <td>{{$student->id}}</td>
-                                <td>{{$student->name}}</td>
-                                <td>{{$student->email}}</td>
-                                <td><a href="{{route('student.edit',['id' => $student->id])}}" class="btn btn-primary btn-sm">Edit</a></td>
-                            </tr>
-                            @endforeach
+                            @if ($students->count() > 0)
+                                @foreach ($students as $student)
+                                    <tr>
+                                        <td>{{$student->id}}</td>
+                                        <td>{{$student->name}}</td>
+                                        <td>{{$student->email}}</td>
+                                        <td class="d-flex">
+                                            <a href="{{route('student.edit',['id' => $student->id])}}" class="btn btn-primary btn-sm">Edit</a>
+                                            <form action="{{route('student.destroy')}}" method="post" class="ml-2">
+                                            @csrf
+                                            {{-- @method('DELETE') --}}
+                                            <input type="hidden" name="id" value="{{$student->id}}">
+                                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                @endforeach
+                            @else
+                                    <tr>
+                                        <td colspan="4">
+                                            <h5 class="text-center mt-3">No post Found</h5>
+                                        </td>
+                                    </tr>
+                            @endif
                         </tbody>
                     </table>
                 </div>

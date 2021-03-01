@@ -25,6 +25,9 @@ Route::get('/students', [App\Http\Controllers\StudentController::class, 'index']
 Route::get('/students/create', [App\Http\Controllers\StudentController::class, 'create'])->name('student.create');
 Route::post('/students/store', [App\Http\Controllers\StudentController::class, 'store'])->name('student.store');
 Route::get('/students/edit/{id}', [App\Http\Controllers\StudentController::class, 'edit'])->name('student.edit');
+Route::post('/students/update/{id}', [App\Http\Controllers\StudentController::class, 'update'])->name('student.update');
+Route::post('/students/destroy', [App\Http\Controllers\StudentController::class, 'destroy'])->name('student.destroy');
+
 
 //Route::get('students', 'StudentController@index')->name('student.index');
 

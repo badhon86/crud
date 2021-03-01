@@ -7,6 +7,10 @@ use Illuminate\Http\Request;
 
 class StudentController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -37,6 +41,10 @@ class StudentController extends Controller
     public function store(Request $request)
     {
         //dd($request->all());
+        $this->validate($request, [
+            'name' => 'required',
+            'email' =>'required',
+        ]);
         Student::create([
             'name' => $request->name,
             'email'=> $request->email,
@@ -62,9 +70,10 @@ class StudentController extends Controller
      * @param  \App\Models\Student  $student
      * @return \Illuminate\Http\Response
      */
-    public function edit(Student $student)
+    public function edit(Student $student, $id)
     {
-        return view('student.edit');
+        $student = Student::find($id);
+        return view('student.edit')->with('student', $student);
     }
 
     /**
@@ -74,9 +83,20 @@ class StudentController extends Controller
      * @param  \App\Models\Student  $student
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Student $student)
+    public function update(Request $request, Student $student , $id)
     {
-        //
+        // dd($request->all());
+        $this->validate($request, [
+            'name' => 'required',
+            'email' =>'required',
+        ]);
+        $student = Student::find($id);
+        $student->name = $request->name;
+        $student->email = $request->email;
+        $student->save();
+
+        $request->session()->flash('success', 'student update successfully');
+        return redirect()->back();
     }
 
     /**
@@ -85,8 +105,13 @@ class StudentController extends Controller
      * @param  \App\Models\Student  $student
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Student $student)
+    public function destroy(Request $request)
     {
-        //
+        //dd($request->all());
+        $student = Student::find($request->id);
+        $student->delete();
+
+        $request->session()->flash('success', 'student delete successfully');
+        return redirect()->back();
     }
 }
