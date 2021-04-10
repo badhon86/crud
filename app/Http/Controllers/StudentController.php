@@ -44,12 +44,16 @@ class StudentController extends Controller
         $this->validate($request, [
             'name' => 'required',
             'email' =>'required',
+            'subject' =>'required',
+            'body' => 'required',
         ]);
         Student::create([
             'name' => $request->name,
             'email'=> $request->email,
+            'subject' => $request->subject,
+            'body'=> $request->body,
         ]);
-        $request->session()->flash('success', 'student create successfully');
+        $request->session()->flash('success', 'message sent successfully');
         return redirect()->back();
     }
 
