@@ -628,7 +628,23 @@
                     </div>
                 </div>
                 <div class="column right">
+                    @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul class="mb-0">
+                            @foreach ($errors->all() as $error)
+                            <li>
+                                {{$error}}
+                            </li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
+
                     <div class="text">Message me</div>
+                    @if (Session ::has('success'))
+                 <div class="div alert alert-success">{{ Session::get('success') }}</div>
+                @endif
+
                     <form action="{{route('msg.store')}}" method="post">
                      @csrf
                         <div class="fields">
@@ -636,7 +652,7 @@
                                 <input type="text" name="name" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" name="emial" placeholder="Email" required>
+                                <input type="email" name="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
