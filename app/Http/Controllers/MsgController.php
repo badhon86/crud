@@ -14,8 +14,8 @@ class MsgController extends Controller
      */
     public function index()
     {
-        $msgs =msg::all();
-        return view('msg.index')->with('msgs', $msgs);
+        // $msgs =msg::all();
+        // return view('msg.index')->with('msgs', $msgs);
     }
 
     /**
@@ -43,7 +43,7 @@ class MsgController extends Controller
         'subject' =>'required',
         'body' => 'required',
     ]);
-    Student::create([
+    msg::create([
         'name' => $request->name,
         'email'=> $request->email,
         'subject' => $request->subject,

@@ -645,7 +645,7 @@
                  <div class="div alert alert-success">{{ Session::get('success') }}</div>
                 @endif
 
-                    <form action="{{route('msg.store')}}" method="post">
+                    <form action="{{route('views.store')}}" method="post">
                      @csrf
                         <div class="fields">
                             <div class="field name">
