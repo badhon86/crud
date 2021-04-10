@@ -64,10 +64,10 @@
                       <div class="content">
 
                         <div class="social">
-                          <a href="https://facebook.com/coding.np"><span class="fab fa-facebook-f"></span></a>
+                          <a href="https://facebook.com/"><span class="fab fa-facebook-f"></span></a>
                           <a href="#"><span class="fab fa-twitter"></span></a>
-                          <a href="https://instagram.com/coding.np"><span class="fab fa-instagram"></span></a>
-                          <a href="https://youtube.com/c/codingnepal"><span class="fab fa-youtube"></span></a>
+                          <a href="https://instagram.com/"><span class="fab fa-instagram"></span></a>
+                          <a href="https://youtube.com/"><span class="fab fa-youtube"></span></a>
                         </div>
                       </div>
                     </div>
@@ -128,7 +128,7 @@
     </section>
 
     <!-- services section start -->
-    <section class="services" id="services">
+    {{-- <section class="services" id="services">
         <div class="max-width">
             <h2 class="title">My services</h2>
             <div class="serv-content">
@@ -199,7 +199,7 @@
         </div>
 
 
-    </section>
+    </section> --}}
 
 
 
@@ -508,7 +508,7 @@
 
 
 
-    <!-- teams section start -->
+    {{-- <!-- teams section start -->
     <section class="teams" id="teams">
         <div class="max-width">
             <h2 class="title">My teams</h2>
@@ -593,7 +593,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- contact section start -->
     <section class="contact" id="contact">
