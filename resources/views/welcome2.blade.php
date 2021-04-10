@@ -128,78 +128,58 @@
     </section>
 
     <!-- services section start -->
-    {{-- <section class="services" id="services">
+    <section class="services" id="services">
         <div class="max-width">
             <h2 class="title">My services</h2>
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
-                        <div class="text">Web Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <div class="text">coming soon</div>
+                        <p>coming soon</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">coming soon</div>
+                        <p>coming soon</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">coming soon</div>
+                        <p>coming soon</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">coming soon</div>
+                        <p>coming soon</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-chart-line"></i>
-                        <div class="text">Advertising</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <div class="text">coming soon</div>
+                        <p>coming soon</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <div class="text">coming soon</div>
+                        <p>coming soon</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                    </div>
-                </div>
+
             </div>
         </div>
 
 
-    </section> --}}
+    </section>
 
 
 
@@ -508,44 +488,44 @@
 
 
 
-    {{-- <!-- teams section start -->
+    <!-- teams section start -->
     <section class="teams" id="teams">
         <div class="max-width">
-            <h2 class="title">My teams</h2>
+            <h2 class="title">coming soon</h2>
             <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
                         <img src="assets/images/profile-1.jpeg" alt="">
                         <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>coming soon</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="assets/images/profile-2.jpeg" alt="">
                         <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>coming soon</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="assets/images/profile-3.jpeg" alt="">
                         <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>coming soon.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="assets/images/profile-4.jpeg" alt="">
                         <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>coming soon</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="assets/images/profile-5.jpeg" alt="">
                         <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Lcoming soon</p>
                     </div>
                 </div>
             </div>
@@ -554,46 +534,46 @@
 <!-- education & certifications -->
     <section class="edu" id="edu">
         <div class="max-width">
-            <h2 class="title">My teams</h2>
+            <h2 class="title">coming soon</h2>
             <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
                         <img src="assets/images/profile-1.jpeg" alt="">
                         <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>coming soon</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="assets/images/profile-2.jpeg" alt="">
                         <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>coming soon</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="assets/images/profile-3.jpeg" alt="">
                         <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>coming soon</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="assets/images/profile-4.jpeg" alt="">
                         <div class="text">Someone name</div>
-                        <p> sit amet consectetur adipisicing elit.</p>
+                        <p> coming soon.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="assets/images/profile-5.jpeg" alt="">
                         <div class="text">Someone name</div>
-                        <p> adipisicing elit.</p>
+                        <p> coming soon</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
 
     <!-- contact section start -->
     <section class="contact" id="contact">
