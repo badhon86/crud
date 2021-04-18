@@ -64,9 +64,9 @@
                       <div class="content">
 
                         <div class="social">
-                          <a href="https://facebook.com/"><span class="fab fa-facebook-f"></span></a>
+                          <a href="https://facebook.com/badhon86"><span class="fab fa-facebook-f"></span></a>
                           <a href="#"><span class="fab fa-twitter"></span></a>
-                          <a href="https://instagram.com/"><span class="fab fa-instagram"></span></a>
+                          <a href="https://instagram.com/badhon886"><span class="fab fa-instagram"></span></a>
                           <a href="https://youtube.com/"><span class="fab fa-youtube"></span></a>
                         </div>
                       </div>
@@ -91,7 +91,7 @@
                     <br>
                     <br>
 
-                    <img src="assets/images/badhon.png" alt="">
+                    <img src="assets/images/badhon.jpg" alt="">
                 </div>
                 <div class="column right">
                     <div class="text">I'm Badhon and I'm a <span class="typing-2"></span></div>
