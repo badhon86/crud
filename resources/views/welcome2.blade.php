@@ -91,7 +91,7 @@
                     <br>
                     <br>
 
-                    <img src="assets/images/badhon.jpg" alt="">
+                    <img src="assets/images/badhon (2).jpg" alt="">
                 </div>
                 <div class="column right">
                     <div class="text">I'm Badhon and I'm a <span class="typing-2"></span></div>
