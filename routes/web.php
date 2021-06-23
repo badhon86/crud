@@ -33,4 +33,4 @@ Route::post('/store', [App\Http\Controllers\MsgController::class, 'store'])->nam
 //Route::get('students', 'StudentController@index')->name('student.index');
 
 
-aa
+aa bb
