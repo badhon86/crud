@@ -49,7 +49,7 @@
                         <i class="fas fa-envelope"> <a href="mailto:yourmail@email.com" target="_blank">badhon35-2092@diu.edu.bd</a></i>
                     </div>
                     <div class="row">
-                        <i class="fas fa-phone-alt">  +880 1521462494</i>
+                        <i class="fas fa-phone-alt">  +880 17613374611</i>
                     </div>
                     <div class="row">
                         <i class="fas fa-map-marker-alt"> Salimullah Road, Mohammadpur, Dhaka 1207</i>
@@ -64,10 +64,10 @@
                       <div class="content">
 
                         <div class="social">
-                          <a href="https://facebook.com/badhon86"><span class="fab fa-facebook-f"></span></a>
+                          <a href="https://facebook.com/badhon86" target="_blank"><span class="fab fa-facebook-f"></span></a>
                           <a href="#"><span class="fab fa-twitter"></span></a>
-                          <a href="https://instagram.com/badhon886"><span class="fab fa-instagram"></span></a>
-                          <a href="https://youtube.com/"><span class="fab fa-youtube"></span></a>
+                          <a href="https://instagram.com/badhon886" target="_blank"><span class="fab fa-instagram"></span></a>
+                          <a href="https://youtube.com/" target="_blank"><span class="fab fa-youtube"></span></a>
                         </div>
                       </div>
                     </div>
@@ -99,6 +99,7 @@
                         I have rich experience in web site development
                         with Laravel framework. Also I am good at &mdash;
                     </p>
+                    <button class="badbutton">Laravel</button>
                     <button class="badbutton">MongoDB</button>
                     <button class="badbutton">Livewire</button>
                     <button class="badbutton">Eloquent</button>
@@ -135,46 +136,66 @@
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
-                        <div class="text">coming soon</div>
-                        <p>coming soon</p>
+                        <div class="text">Portfolio websites</div>
+                        <p></p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
-                        <div class="text">coming soon</div>
-                        <p>coming soon</p>
+                        <div class="text">Laravel Application</div>
+                        <p></p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
-                        <div class="text">coming soon</div>
-                        <p>coming soon</p>
+                        <div class="text">Web development</div>
+                        <p></p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
-                        <div class="text">coming soon</div>
-                        <p>coming soon</p>
+                        <div class="text">E-Commerce Development</div>
+                        <p></p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-chart-line"></i>
-                        <div class="text">coming soon</div>
-                        <p>coming soon</p>
+                        <div class="text">Login & Registration system</div>
+                        <p></p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-code"></i>
-                        <div class="text">coming soon</div>
-                        <p>coming soon</p>
+                        <div class="text">Management system development</div>
+                        <p></p>
                     </div>
                 </div>
-
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Content development</div>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Technical writing</div>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Docmentation writing</div>
+                        <p></p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -219,7 +240,7 @@
                       </div>
                       <div class="bars">
                           <div class="info">
-                              <span>PHP</span>
+                              <span>API</span>
                               <span>50%</span>
                           </div>
                           <div class="line php"></div>
@@ -254,53 +275,19 @@
                       </div>
                       <div class="bars">
                           <div class="info">
-                              <span>Vue Apollo</span>
+                              <span>React</span>
                               <span>50%</span>
                           </div>
                           <div class="line vueApollo"></div>
                       </div>
                       <div class="bars">
                           <div class="info">
-                              <span>Vuetify</span>
+                              <span>Rest API</span>
                               <span>50%</span>
                           </div>
                           <div class="line vuetify"></div>
                       </div>
-                      <div class="bars">
-                          <div class="info">
-                              <span>Vuex</span>
-                              <span>50%</span>
-                          </div>
-                          <div class="line vuex"></div>
-                      </div>
-                      <div class="bars">
-                          <div class="info">
-                              <span>Vue Router</span>
-                              <span>45%</span>
-                          </div>
-                          <div class="line vueRouter"></div>
-                      </div>
-                      <div class="bars">
-                          <div class="info">
-                              <span>axios</span>
-                              <span>60%</span>
-                          </div>
-                          <div class="line axios"></div>
-                      </div>
-                      <div class="bars">
-                          <div class="info">
-                              <span>Ajax</span>
-                              <span>50%</span>
-                          </div>
-                          <div class="line ajax"></div>
-                      </div>
-                      <div class="bars">
-                          <div class="info">
-                              <span>UI/UX</span>
-                              <span>60%</span>
-                          </div>
-                          <div class="line uiux"></div>
-                      </div>
+
                   </div>
 <!-- frontend -->
                 <div class="column right">
@@ -321,77 +308,21 @@
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>JavaScript</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="line js"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>PHP</span>
-                            <span>50%</span>
-                        </div>
-                        <div class="line php"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>MySQL</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="line mysql"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Bootstrap 4</span>
-                            <span>60%</span>
-                        </div>
-                        <div class="line bootstrap"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Taiwind CSS</span>
-                            <span>30%</span>
-                        </div>
-                        <div class="line tailwind"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Vue js</span>
-                            <span>40%</span>
-                        </div>
-                        <div class="line vueJs"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Vue Apollo</span>
-                            <span>50%</span>
-                        </div>
-                        <div class="line vueApollo"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Vuetify</span>
-                            <span>50%</span>
-                        </div>
-                        <div class="line vuetify"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Vuex</span>
+                            <span>Controller</span>
                             <span>50%</span>
                         </div>
                         <div class="line vuex"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>Vue Router</span>
+                            <span>Form</span>
                             <span>45%</span>
                         </div>
                         <div class="line vueRouter"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>axios</span>
+                            <span>Eloquent</span>
                             <span>60%</span>
                         </div>
                         <div class="line axios"></div>
@@ -410,7 +341,6 @@
                         </div>
                         <div class="line uiux"></div>
                     </div>
-
 
 
                 </div>
