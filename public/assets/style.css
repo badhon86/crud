@@ -566,7 +566,7 @@ section .title::after{
 
 /* education & certifications */
 .edu .title::after{
-    content: "who with me";
+    content: "At a glance";
 }
 .edu .carousel .card{
     background: rgb(252, 249, 249);

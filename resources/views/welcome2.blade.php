@@ -464,41 +464,41 @@
 <!-- education & certifications -->
     <section class="edu" id="edu">
         <div class="max-width">
-            <h2 class="title">coming soon</h2>
+            <h2 class="title">My projects</h2>
             <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
-                        <img src="assets/images/profile-1.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>coming soon</p>
+                        <img src="assets/images/p7.png" alt="">
+                        <div class="text"><a href="https://github.com/badhon86/bloodDonation" target="_blank">Blood Donate Organization</a></div>
+                        <p>Blood donation website</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="assets/images/profile-2.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>coming soon</p>
+                        <img src="assets/images/p8.png" alt="">
+                        <div class="text"><a href="https://github.com/badhon86/FacebookClone" target="_blank">Facebook_clone</a></div>
+                        <p>I try to clone facebook</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="assets/images/profile-3.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>coming soon</p>
+                        <img src="assets/images/p9.png" alt="">
+                        <div class="text"><a href="https://github.com/badhon86/c-programming" target="_blank">C-Programming</a></div>
+                        <p>Here i develop some c/c++ projects</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="assets/images/profile-4.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p> coming soon.</p>
+                        <img src="assets/images/badhonn.jpg" alt="">
+                        <div class="text"><a href="#" target="_blank">Badhon Sarkar</a></div>
+                        <p>I Am Owner of this website</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="assets/images/profile-5.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p> coming soon</p>
+                        <img src="assets/images/p6.png" alt="">
+                        <div class="text"><a href="https://github.com/badhon86" target="_blank">GitHub</a></div>
+                        <p>See All My Projects From GitHub</p>
                     </div>
                 </div>
             </div>
