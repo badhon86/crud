@@ -421,41 +421,41 @@
     <!-- teams section start -->
     <section class="teams" id="teams">
         <div class="max-width">
-            <h2 class="title">coming soon</h2>
+            <h2 class="title">My Projects</h2>
             <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
-                        <img src="assets/images/profile-1.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>coming soon</p>
+                        <img src="assets/images/p1.jpg" alt="">
+                        <div class="text"><a href="http://coronabd.xyz/" target="_blank">CoronaBD</a></div>
+                        <p>web Application</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="assets/images/profile-2.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>coming soon</p>
+                        <img src="assets/images/d.png" alt="">
+                        <div class="text"><a href="https://github.com/badhon86/portfolioe_web" target="_blank">MyPortfolio</a></div>
+                        <p>Portfolio Website</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="assets/images/profile-3.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>coming soon.</p>
+                        <img src="assets/images/p3.jpg" alt="">
+                        <div class="text"><a href="https://github.com/badhon86/TeachingHubBD-laravel" target="_blank">TeachingHub-BD</a></div>
+                        <p>E-Learning Website</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="assets/images/profile-4.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>coming soon</p>
+                        <img src="assets/images/p4.jpg" alt="">
+                        <div class="text"><a href="https://github.com/badhon86/DayCare" target="_blank">DayCare</a></div>
+                        <p>Daycare montitoring system</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="assets/images/profile-5.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lcoming soon</p>
+                        <img src="assets/images/p5.png" alt="">
+                        <div class="text"><a href="https://linkgenerate.badhonsarkar.com/" target="_blank">link generator</a></div>
+                        <p>Direct download link generate</p>
                     </div>
                 </div>
             </div>
